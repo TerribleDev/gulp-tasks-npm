@@ -1,0 +1,29 @@
+{
+  "name": "gulp-tasks-npm",
+  "version": "0.1.0",
+  "description": "adds npm install and publish tasks to gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tparnell8/gulp-tasks-npm.git"
+  },
+  "keywords": [
+    "gulp",
+    "npm"
+  ],
+  "author": "Tommy Parnell",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tparnell8/gulp-tasks-npm/issues"
+  },
+  "homepage": "https://github.com/tparnell8/gulp-tasks-npm#readme",
+  "dependencies": {
+    "grunt-npm-helper": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-json-transform": "^0.3.2",
+    "gulp-util": "^3.0.7"
+  }
+}
