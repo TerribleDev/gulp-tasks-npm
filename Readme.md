@@ -83,3 +83,15 @@ Default: Calculated based on user input
 
 Defines the npm configuration object we use to do npm operations. If undefined one is built from your previous inputs, which is the prefered method to interact with.
 
+# Generated tasks
+
+## packageJson-mutateVersion
+if you pass a build version you will get a task `packageJson-mutateVersion` which will mutate your package.json with that version
+
+## npm-install
+
+do an npm install
+
+## npm-publish
+
+do an npm publish 
