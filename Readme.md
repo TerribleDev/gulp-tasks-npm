@@ -5,15 +5,16 @@ This package provides tasks to work with npm.
 a very simple example looks like this 
 
 ```js
-require('gulp-tasks-npm')();
+var gulp = require('gulp');
+require('gulp-tasks-npm')(gulp);
 
 ```
 
 a more complex example may look like this
 
 ```js
-
-require('gulp-tasks-npm'({
+var gulp = require('gulp');
+require('gulp-tasks-npm'(gulp, {
     
     user: "username",
     password: "password",
@@ -27,7 +28,7 @@ require('gulp-tasks-npm'({
 
 # Api
 
-## gulp-helper-npm(config)
+## gulp-helper-npm(gulp, config)
 
 #### config
 
