@@ -1,6 +1,6 @@
 {
   "name": "gulp-tasks-npm",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "adds npm install and publish tasks to gulp",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,10 @@
   "homepage": "https://github.com/tparnell8/gulp-tasks-npm#readme",
   "dependencies": {
     "grunt-npm-helper": "0.0.2",
-    "gulp": "^3.9.1",
     "gulp-json-transform": "^0.3.2",
     "gulp-util": "^3.0.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }

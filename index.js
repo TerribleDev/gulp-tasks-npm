@@ -1,9 +1,11 @@
 var npmWrapper = require("grunt-npm-helper/lib/npm-wrapper");
 var jsonTransform = require('gulp-json-transform');
 var gutil = require('gulp-util');
-var gulp = require('gulp');
 var publishDeps = [];
-module.exports = function(config){
+module.exports = function(gulp, config){
+    if(!gulp){
+        throw "Please pass gulp as an argument in the first position";
+    }
     config = config || {};
     config.user = config.user || undefined;
     config.password = config.password ||  undefined;

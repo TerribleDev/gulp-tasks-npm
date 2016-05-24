@@ -1,2 +1,2 @@
 var gulp = require('gulp');
-require('./index.js')();
+require('./index.js')(gulp);
