@@ -1,6 +1,6 @@
 {
   "name": "gulp-tasks-npm",
-  "version": "0.2.1",
+  "version": "0.3.1",
   "description": "adds npm install and publish tasks to gulp",
   "main": "index.js",
   "scripts": {
