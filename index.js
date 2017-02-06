@@ -12,7 +12,7 @@ module.exports = function(gulp, config){
     config.buildVersion = config.buildVersion || undefined;
     config.email = config.email || undefined;
     config.strictSsl = config.strictSsl || true;
-    config.registry = config.registry || "https://registry.npmjs.org/";
+    config.registry = config.registry || undefined;
     config.npmObj = config.npmObj || {
                 registry: config.registry ,
                 "strict-ssl": config.strictSsl,
